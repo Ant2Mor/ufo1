@@ -1,0 +1,6 @@
+To run this locally:
+
+1. Change read_csv location. (dataset location)
+2. Run the code.
+3. In the terminal write: streamlit run ufo.py
+4. This should open a local browser. 
