@@ -31,7 +31,7 @@ def clean_and_wrap_text(text, width=80):
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("scrubbed.csv")
+    df = pd.read_csv("scrubbed.csv")  #CHANGE THIS   <------------
     df.columns = df.columns.str.strip().str.lower()
     df["datetime"] = pd.to_datetime(df["datetime"], errors="coerce")
     df["year"] = df["datetime"].dt.year
